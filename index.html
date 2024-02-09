@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <block class="right-blck" id="ited">ITED</block>
+    </div>
+    <script>
+        // Способы получения элемента со страницы
+        let first = document.getElementById('ited');
+        console.log(first)
+        first.innerHTML = "code school"
+        let second = document.querySelector('#ited');
+
+        let third = document.getElementsByClassName('right-block');
+        let fourth = document.querySelector('.right-block');
+
+    </script>
+
+</body>
+
+</html>
